@@ -2,7 +2,7 @@
 
 namespace CoreDesign\Http;
 
-interface HttpClientConfigurations
+interface HttpConfigurations
 {
     /**
      * Get timeout for API calls in seconds.
