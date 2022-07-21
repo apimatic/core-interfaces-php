@@ -1,0 +1,21 @@
+{
+  "name": "apimatic/interfaces-php",
+  "description": "Definition of the behavior of core-lib-php, unirest-php and Apimatic's PHP SDK",
+  "keywords": [
+    "apimatic",
+    "php",
+    "core",
+    "CoreLib",
+    "unirest",
+    "interface"
+  ],
+  "license": "OSL-3.0",
+  "type": "library",
+  "homepage": "https://github.com/apimatic/interfaces-php",
+  "require": {
+    "php": ">=7.2 <8.2"
+  },
+  "autoload": {
+    "psr-4": { "CoreDesign\\": "src/" }
+  }
+}
