@@ -2,8 +2,8 @@
 
 namespace CoreDesign\Http;
 
-use CoreDesign\Core\RequestInterface;
-use CoreDesign\Core\ResponseInterface;
+use CoreDesign\Core\Request\RequestInterface;
+use CoreDesign\Core\Response\ResponseInterface;
 
 interface HttpClientInterface
 {

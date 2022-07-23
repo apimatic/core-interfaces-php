@@ -2,6 +2,9 @@
 
 namespace CoreDesign\Core;
 
+use CoreDesign\Core\Request\RequestInterface;
+use CoreDesign\Core\Response\ResponseInterface;
+
 interface ContextInterface
 {
     /**

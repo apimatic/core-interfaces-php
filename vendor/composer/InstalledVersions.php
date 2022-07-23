@@ -24,24 +24,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
-    'name' => 'apimatic/interfaces-php',
+    'reference' => 'f414c05f6e617a90182728ade1470ad61a83f69d',
+    'name' => 'apimatic/core-interfaces-php',
   ),
   'versions' => 
   array (
-    'apimatic/interfaces-php' => 
+    'apimatic/core-interfaces-php' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'f414c05f6e617a90182728ade1470ad61a83f69d',
     ),
   ),
 );

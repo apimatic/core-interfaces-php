@@ -4,8 +4,8 @@ namespace CoreDesign\Sdk;
 
 use CoreDesign\Core\ContextInterface;
 use CoreDesign\Core\CoreExceptionInterface;
-use CoreDesign\Core\RequestInterface;
-use CoreDesign\Core\ResponseInterface;
+use CoreDesign\Core\Request\RequestInterface;
+use CoreDesign\Core\Response\ResponseInterface;
 
 interface ConverterInterface
 {

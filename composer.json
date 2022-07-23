@@ -1,5 +1,5 @@
 {
-  "name": "apimatic/interfaces-php",
+  "name": "apimatic/core-interfaces-php",
   "description": "Definition of the behavior of core-lib-php, unirest-php and Apimatic's PHP SDK",
   "keywords": [
     "apimatic",
@@ -11,7 +11,7 @@
   ],
   "license": "OSL-3.0",
   "type": "library",
-  "homepage": "https://github.com/apimatic/interfaces-php",
+  "homepage": "https://github.com/apimatic/core-interfaces-php",
   "require": {
     "php": ">=7.2 <8.2"
   },
