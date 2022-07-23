@@ -1,4 +1,4 @@
-# interfaces-php
+# core-interfaces-php
 Definition of the behavior of core-lib-php, unirest-php and Apimatic's PHP SDK.
 
 ## Interfaces
