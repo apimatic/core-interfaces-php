@@ -2,9 +2,14 @@
 
 namespace CoreDesign\Core\Authentication;
 
-use CoreDesign\Core\Request\RequestInterface;
+use CoreDesign\Core\Request\RequestSetterInterface;
+use InvalidArgumentException;
 
 interface AuthInterface
 {
-    public function apply(RequestInterface $request): void;
+    /**
+     * @throws InvalidArgumentException
+     */
+    public function validate(): void;
+    public function apply(RequestSetterInterface $request): void;
 }
