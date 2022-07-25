@@ -5,7 +5,7 @@ namespace CoreDesign\Core;
 use CoreDesign\Core\Request\RequestInterface;
 use CoreDesign\Core\Response\ResponseInterface;
 
-interface CoreExceptionInterface extends \Throwable
+interface CoreExceptionInterface extends \Throwable, Convertable
 {
     /**
      * @return RequestInterface

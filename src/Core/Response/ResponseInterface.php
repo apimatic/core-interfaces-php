@@ -2,7 +2,9 @@
 
 namespace CoreDesign\Core\Response;
 
-interface ResponseInterface
+use CoreDesign\Core\Convertable;
+
+interface ResponseInterface extends Convertable
 {
     /**
      * @return int

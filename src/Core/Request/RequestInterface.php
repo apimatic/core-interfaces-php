@@ -2,7 +2,9 @@
 
 namespace CoreDesign\Core\Request;
 
-interface RequestInterface
+use CoreDesign\Core\Convertable;
+
+interface RequestInterface extends Convertable
 {
     public function getHttpMethod(): string;
     public function getQueryUrl(): string;

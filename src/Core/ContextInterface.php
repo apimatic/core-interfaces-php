@@ -4,16 +4,11 @@ namespace CoreDesign\Core;
 
 use CoreDesign\Core\Request\RequestInterface;
 use CoreDesign\Core\Response\ResponseInterface;
+use CoreDesign\Sdk\ConverterInterface;
 
-interface ContextInterface
+interface ContextInterface extends Convertable
 {
-    /**
-     * @return RequestInterface
-     */
     public function getRequest(): RequestInterface;
-
-    /**
-     * @return ResponseInterface
-     */
     public function getResponse(): ResponseInterface;
+    public function convertIntoApiResponse($deserializedBody, ConverterInterface $converter);
 }
