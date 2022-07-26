@@ -1,8 +1,8 @@
 <?php
 
-namespace CoreDesign\Core\Response;
+namespace CoreDesign\Core;
 
-interface ResponseFormat
+interface BodyFormat
 {
     public const JSON = "Json";
     public const XML = "Xml";

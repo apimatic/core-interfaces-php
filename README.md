@@ -23,5 +23,5 @@ Definition of the behavior of core-lib-php, unirest-php and Apimatic's PHP SDK.
 | [`AuthGroup`](src/Core/Authentication/AuthGroup.php)                          | Enumeration for multiple Auth groups            |
 | [`RequestArraySerialization`](src/Core/Request/RequestArraySerialization.php) | Enumeration for all ArraySerialization formats  |
 | [`RequestMethod`](src/Core/Request/RequestMethod.php)                         | Enumeration for all possible types of requests  |
-| [`ResponseFormat`](src/Core/Response/ResponseFormat.php)                      | Enumeration for different formats of responses  |
+| [`BodyFormat`](src/Core/BodyFormat.php)                                       | Enumeration for different formats of responses  |
 | [`RetryOption`](src/Http/RetryOption.php)                                     | Enumeration for RetryingOption of each API call |
