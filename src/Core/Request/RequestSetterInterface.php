@@ -2,7 +2,7 @@
 
 namespace CoreDesign\Core\Request;
 
-use CoreDesign\Core\BodyFormat;
+use CoreDesign\Core\Format;
 
 interface RequestSetterInterface extends RequestInterface
 {

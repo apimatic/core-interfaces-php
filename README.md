@@ -19,10 +19,10 @@ Definition of the behavior of core-lib-php, unirest-php and Apimatic's PHP SDK.
 | [`ExceptionInterface`](src/Sdk/ExceptionInterface.php)                  | Default interface for all the exception models in SDK              |
 
 ## Enumerations
-| Name                                                                          | Description                                     |
-|-------------------------------------------------------------------------------|-------------------------------------------------|
-| [`AuthGroup`](src/Core/Authentication/AuthGroup.php)                          | Enumeration for multiple Auth groups            |
-| [`RequestArraySerialization`](src/Core/Request/RequestArraySerialization.php) | Enumeration for all ArraySerialization formats  |
-| [`RequestMethod`](src/Core/Request/RequestMethod.php)                         | Enumeration for all possible types of requests  |
-| [`BodyFormat`](src/Core/BodyFormat.php)                                       | Enumeration for different formats of responses  |
-| [`RetryOption`](src/Http/RetryOption.php)                                     | Enumeration for RetryingOption of each API call |
+| Name                                                                          | Description                                                     |
+|-------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| [`AuthGroup`](src/Core/Authentication/AuthGroup.php)                          | Enumeration for multiple Auth groups                            |
+| [`RequestArraySerialization`](src/Core/Request/RequestArraySerialization.php) | Enumeration for all ArraySerialization formats                  |
+| [`RequestMethod`](src/Core/Request/RequestMethod.php)                         | Enumeration for all possible types of requests                  |
+| [`Format`](src/Core/Format.php)                                               | Enumeration for different formats of request body and responses |
+| [`RetryOption`](src/Http/RetryOption.php)                                     | Enumeration for RetryingOption of each API call                 |
