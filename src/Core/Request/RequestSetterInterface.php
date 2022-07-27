@@ -12,6 +12,6 @@ interface RequestSetterInterface extends RequestInterface
     public function addTemplate(string $key, $value, bool $encode = true): void;
     public function addHeader(string $key, $value): void;
     public function addFormParam(string $key, $value, string $arrayFormat = RequestArraySerialization::INDEXED): void;
-    public function addBodyParam(string $key, $value, bool $wrapObject = true, string $format = BodyFormat::JSON): void;
+    public function addBodyParam($value, ?string $key = null, string $format = BodyFormat::JSON): void;
     public function setRetryOption(string $retryOption): void;
 }
