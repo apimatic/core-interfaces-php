@@ -9,7 +9,7 @@ use CoreDesign\Core\Response\ResponseInterface;
 
 interface ConverterInterface
 {
-    public function createApiException(CoreExceptionInterface $exception);
+    public function createApiException(string $message, RequestInterface $request, ?ResponseInterface $response);
     public function createHttpContext(ContextInterface $context);
     public function createHttpRequest(RequestInterface $request);
     public function createHttpResponse(ResponseInterface $response);
