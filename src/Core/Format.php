@@ -4,6 +4,7 @@ namespace CoreDesign\Core;
 
 interface Format
 {
-    public const JSON = "Json";
-    public const XML = "Xml";
+    public const JSON = 'application/json';
+    public const XML = 'application/xml';
+    public const SCALAR = 'text/plain; charset=utf-8';
 }
