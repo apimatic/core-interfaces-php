@@ -19,6 +19,6 @@ interface ParamInterface
     /**
      * @throws InvalidArgumentException
      */
-    public function validate(TypeValidatorInterface $validator): void;
+    public function validate(): void;
     public function apply(RequestSetterInterface $request): void;
 }

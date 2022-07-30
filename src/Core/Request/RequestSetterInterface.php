@@ -2,8 +2,6 @@
 
 namespace CoreDesign\Core\Request;
 
-use CoreDesign\Core\Format;
-
 interface RequestSetterInterface extends RequestInterface
 {
     public function setHttpMethod(string $requestMethod): void;
