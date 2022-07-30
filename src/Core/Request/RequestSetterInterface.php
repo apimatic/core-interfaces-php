@@ -12,7 +12,6 @@ interface RequestSetterInterface extends RequestInterface
     public function addHeader(string $key, $value): void;
     public function addFormParam(string $key, $value, string $encodedBody): void;
     public function addBodyParam($value, ?string $key = null): void;
-    public function setBodyAsXml(string $rootName): void;
-    public function setBodyAsJson(): void;
+    public function setBodyFormat(string $format, callable $serializer): void;
     public function setRetryOption(string $retryOption): void;
 }
