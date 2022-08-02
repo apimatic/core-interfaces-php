@@ -24,5 +24,4 @@ Definition of the behavior of core-lib-php, unirest-php and Apimatic's PHP SDK.
 | [`RequestArraySerialization`](src/Core/Request/RequestArraySerialization.php) | Enumeration for all ArraySerialization formats                  |
 | [`RequestMethod`](src/Core/Request/RequestMethod.php)                         | Enumeration for all possible types of requests                  |
 | [`Format`](src/Core/Format.php)                                               | Enumeration for different formats of request body and responses |
-| [`BodyMatchMode`](src/Core/BodyMatchMode.php)                                 | Enumeration for modes of matching expected body in test cases   |
 | [`RetryOption`](src/Http/RetryOption.php)                                     | Enumeration for RetryingOption of each API call                 |
