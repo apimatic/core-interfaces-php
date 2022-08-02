@@ -11,6 +11,7 @@ Definition of the behavior of core-lib-php, unirest-php and Apimatic's PHP SDK.
 | [`RequestInterface`](src/Core/Request/RequestInterface.php)             | To get the properties from the instance of Request                 |
 | [`RequestSetterInterface`](src/Core/Request/RequestSetterInterface.php) | To update the instance of Request                                  |
 | [`ParamInterface`](src/Core/Request/ParamInterface.php)                 | To Provide abstraction for common functionality of Parameters      |
+| [`TypeValidatorInterface`](src/Core/Request/TypeValidatorInterface.php) | To Provide abstraction for type validation in Parameters           |
 | [`ResponseInterface`](src/Core/Response/ResponseInterface.php)          | To get the properties from the instance of Response                |
 | [`HttpConfigurations`](src/Http/HttpConfigurations.php)                 | To hold the default configurations for HttpClient                  |
 | [`HttpClientInterface`](src/Http/HttpClientInterface.php)               | To provide abstraction to execute API call in HttpClient           |
