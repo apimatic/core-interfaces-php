@@ -13,4 +13,5 @@ interface ConverterInterface
     public function createHttpRequest(RequestInterface $request);
     public function createHttpResponse(ResponseInterface $response);
     public function createApiResponse(ContextInterface $context, $deserializedBody);
+    public function createFileWrapper(string $realFilePath, ?string $mimeType, ?string $filename);
 }
