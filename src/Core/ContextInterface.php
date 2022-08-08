@@ -9,6 +9,4 @@ interface ContextInterface
 {
     public function getRequest(): RequestInterface;
     public function getResponse(): ResponseInterface;
-    public function convert();
-    public function convertIntoApiResponse($deserializedBody);
 }
