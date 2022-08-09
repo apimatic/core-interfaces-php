@@ -2,9 +2,7 @@
 
 namespace CoreDesign\Core\Request;
 
-use CoreDesign\Core\Convertable;
-
-interface RequestInterface extends Convertable
+interface RequestInterface
 {
     public function getHttpMethod(): string;
     public function getQueryUrl(): string;
@@ -18,4 +16,6 @@ interface RequestInterface extends Convertable
     public function getParameters(): array;
     public function getBody();
     public function getRetryOption(): string;
+    public function convert();
+    public function toApiException(string $message);
 }

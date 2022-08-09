@@ -4,9 +4,7 @@ Definition of the behavior of core-lib-php, unirest-php and Apimatic's PHP SDK.
 ## Interfaces
 | Name                                                                    | Description                                                        |
 |-------------------------------------------------------------------------|--------------------------------------------------------------------|
-| [`Convertable`](src/Core/Convertable.php)                               | To be implemented by the classes that needed conversion            |
 | [`ContextInterface`](src/Core/ContextInterface.php)                     | To save both Request and Response after the completion of response |
-| [`CoreExceptionInterface`](src/Core/CoreExceptionInterface.php)         | To throw exceptions from CoreLib                                   |
 | [`AuthInterface`](src/Core/Authentication/AuthInterface.php)            | To Provide abstraction for all AuthManagers                        |
 | [`RequestInterface`](src/Core/Request/RequestInterface.php)             | To get the properties from the instance of Request                 |
 | [`RequestSetterInterface`](src/Core/Request/RequestSetterInterface.php) | To update the instance of Request                                  |

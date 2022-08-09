@@ -2,9 +2,9 @@
 
 namespace CoreDesign\Core\Response;
 
-use CoreDesign\Core\Convertable;
+use CoreDesign\Sdk\ConverterInterface;
 
-interface ResponseInterface extends Convertable
+interface ResponseInterface
 {
     public function getStatusCode(): int;
     /**
@@ -16,4 +16,5 @@ interface ResponseInterface extends Convertable
      * @return mixed
      */
     public function getBody();
+    public function convert(ConverterInterface $converter);
 }
