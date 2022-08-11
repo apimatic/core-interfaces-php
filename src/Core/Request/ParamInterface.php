@@ -6,7 +6,15 @@ use InvalidArgumentException;
 
 interface ParamInterface
 {
+    /**
+     * Pick current parameter's value from a collected parameters array,
+     * if key is not provided then use parameter's own key
+     */
+    public function pickFromCollected(?string $key = null);
     public function required();
+    /**
+     * To perform validation and serialization for un unusual types.
+     */
     public function serializeBy(callable $serializerMethod);
     /**
      * @param string   $strictType        Strict single type i.e. string, ModelName, etc. or group of types
