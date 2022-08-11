@@ -10,7 +10,7 @@ interface ParamInterface
      * Pick current parameter's value from a collected parameters array,
      * if key is not found then use the given default value
      */
-    public function pickFromCollected($default = null, ?string $key = null);
+    public function pickFromCollected($default, ?string $key = null);
     public function required();
     /**
      * To perform validation and serialization for un unusual types.
