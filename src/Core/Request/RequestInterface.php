@@ -14,6 +14,14 @@ interface RequestInterface
      * @return array<string,mixed>
      */
     public function getParameters(): array;
+    /**
+     * @return array<string,mixed>
+     */
+    public function getEncodedParameters(): array;
+    /**
+     * @return array<string,mixed>
+     */
+    public function getMultipartParameters(): array;
     public function getBody();
     public function getRetryOption(): string;
     public function convert();
