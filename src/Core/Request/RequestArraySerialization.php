@@ -9,5 +9,5 @@ interface RequestArraySerialization
     public const PLAIN = "Plain:&";
     public const CSV = "Csv:,";
     public const PSV = "Psv:|";
-    public const TSV = "Tsv:\\t";
+    public const TSV = "Tsv:\t";
 }
