@@ -1,9 +1,9 @@
 <?php
 
-namespace CoreDesign\Core\Authentication;
+namespace CoreInterfaces\Core\Authentication;
 
-use CoreDesign\Core\Request\RequestSetterInterface;
-use CoreDesign\Core\Request\TypeValidatorInterface;
+use CoreInterfaces\Core\Request\RequestSetterInterface;
+use CoreInterfaces\Core\Request\TypeValidatorInterface;
 use InvalidArgumentException;
 
 interface AuthInterface

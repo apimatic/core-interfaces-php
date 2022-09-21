@@ -1,10 +1,10 @@
 <?php
 
-namespace CoreDesign\Sdk;
+namespace CoreInterfaces\Sdk;
 
-use CoreDesign\Core\ContextInterface;
-use CoreDesign\Core\Request\RequestInterface;
-use CoreDesign\Core\Response\ResponseInterface;
+use CoreInterfaces\Core\ContextInterface;
+use CoreInterfaces\Core\Request\RequestInterface;
+use CoreInterfaces\Core\Response\ResponseInterface;
 
 interface ConverterInterface
 {

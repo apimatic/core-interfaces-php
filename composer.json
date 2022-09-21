@@ -1,6 +1,6 @@
 {
-  "name": "apimatic/core-interfaces-php",
-  "description": "Definition of the behavior of core-lib-php, unirest-php and Apimatic's PHP SDK",
+  "name": "apimatic/core-interfaces",
+  "description": "Definition of the behavior of apimatic/core, apimatic/unirest-php and Apimatic's PHP SDK",
   "keywords": [
     "apimatic",
     "php",
@@ -16,6 +16,6 @@
     "php": ">=7.2 <8.2"
   },
   "autoload": {
-    "psr-4": { "CoreDesign\\": "src/" }
+    "psr-4": { "CoreInterfaces\\": "src/" }
   }
 }

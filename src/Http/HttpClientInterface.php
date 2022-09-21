@@ -1,9 +1,9 @@
 <?php
 
-namespace CoreDesign\Http;
+namespace CoreInterfaces\Http;
 
-use CoreDesign\Core\Request\RequestInterface;
-use CoreDesign\Core\Response\ResponseInterface;
+use CoreInterfaces\Core\Request\RequestInterface;
+use CoreInterfaces\Core\Response\ResponseInterface;
 
 interface HttpClientInterface
 {

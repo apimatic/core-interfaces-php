@@ -1,5 +1,5 @@
-# core-interfaces-php
-Definition of the behavior of core-lib-php, unirest-php and Apimatic's PHP SDK.
+# core-interfaces
+Definition of the behavior of apimatic/core, apimatic/unirest-php and Apimatic's PHP SDK
 
 ## Interfaces
 | Name                                                                    | Description                                                        |

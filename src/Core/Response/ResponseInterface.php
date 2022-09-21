@@ -1,8 +1,8 @@
 <?php
 
-namespace CoreDesign\Core\Response;
+namespace CoreInterfaces\Core\Response;
 
-use CoreDesign\Sdk\ConverterInterface;
+use CoreInterfaces\Sdk\ConverterInterface;
 
 interface ResponseInterface
 {

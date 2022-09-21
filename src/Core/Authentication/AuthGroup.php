@@ -1,6 +1,6 @@
 <?php
 
-namespace CoreDesign\Core\Authentication;
+namespace CoreInterfaces\Core\Authentication;
 
 interface AuthGroup
 {

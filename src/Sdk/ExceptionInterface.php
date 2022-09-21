@@ -1,6 +1,6 @@
 <?php
 
-namespace CoreDesign\Sdk;
+namespace CoreInterfaces\Sdk;
 
 interface ExceptionInterface extends \Throwable
 {

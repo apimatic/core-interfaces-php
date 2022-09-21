@@ -1,6 +1,6 @@
 <?php
 
-namespace CoreDesign\Core;
+namespace CoreInterfaces\Core;
 
 interface Format
 {

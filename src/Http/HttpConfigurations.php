@@ -1,6 +1,6 @@
 <?php
 
-namespace CoreDesign\Http;
+namespace CoreInterfaces\Http;
 
 interface HttpConfigurations
 {
