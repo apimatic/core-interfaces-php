@@ -2,7 +2,7 @@
 Definition of the behavior of apimatic/core, apimatic/unirest-php and Apimatic's PHP SDK
 
 ## Requirements
-- PHP v7.2.* => v8.1.*
+- PHP v7.2.x => v8.1.x
 
 ## Interfaces
 | Name                                                                    | Description                                                        |
