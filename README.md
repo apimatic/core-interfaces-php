@@ -1,8 +1,29 @@
-# core-interfaces
+# core-interfaces for Core Library
+[![version][packagist-version]][packagist-url]
+[![Downloads][packagist-downloads]][packagist-url]
+[![Licence][license-badge]][license-url]
+
+## Introduction
 Definition of the behavior of apimatic/core, apimatic/unirest-php and Apimatic's PHP SDK
 
 ## Requirements
 - PHP v7.2.x => v8.1.x
+
+## Install the Package
+
+Run the following command to install the package and automatically add the dependency to your composer.json file:
+
+```php
+composer require "apimatic/core-interfaces"
+```
+
+Or add it to the composer.json file manually as given below:
+
+```php
+"require": {
+    "apimatic/core-interfaces": "*"
+}
+```
 
 ## Interfaces
 | Name                                                                    | Description                                                        |
@@ -27,3 +48,10 @@ Definition of the behavior of apimatic/core, apimatic/unirest-php and Apimatic's
 | [`RequestMethod`](src/Core/Request/RequestMethod.php)                         | Enumeration for all possible types of requests                  |
 | [`Format`](src/Core/Format.php)                                               | Enumeration for different formats of request body and responses |
 | [`RetryOption`](src/Http/RetryOption.php)                                     | Enumeration for RetryingOption of each API call                 |
+
+
+[packagist-url]: https://packagist.org/packages/apimatic/core-interfaces
+[packagist-version]: https://img.shields.io/packagist/v/apimatic/core-interfaces.svg?style=flat
+[packagist-downloads]: https://img.shields.io/packagist/dm/apimatic/core-interfaces.svg?style=flat
+[license-badge]: https://img.shields.io/badge/licence-OSL--3.0-blue
+[license-url]: https://opensource.org/licenses/OSL-3.0
