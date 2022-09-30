@@ -53,4 +53,4 @@ Or add it to the composer.json file manually as given below:
 [packagist-version]: https://img.shields.io/packagist/v/apimatic/core-interfaces.svg?style=flat
 [packagist-downloads]: https://img.shields.io/packagist/dm/apimatic/core-interfaces.svg?style=flat
 [license-badge]: https://img.shields.io/badge/license-APIMATIC-blue
-[license-url]: License
+[license-url]: LICENSE
