@@ -1,5 +1,6 @@
 # APIMatic Core Library Interfaces
 [![version][packagist-version]][packagist-url]
+[![Maintainability](https://api.codeclimate.com/v1/badges/8c44cc226ce627f4efab/maintainability)](https://codeclimate.com/github/apimatic/core-interfaces-php/maintainability)
 [![Licence][license-badge]][license-url]
 
 ## Introduction
