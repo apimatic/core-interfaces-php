@@ -1,4 +1,4 @@
-# Apimatic Core Library Interfaces
+# APIMatic Core Library Interfaces
 [![version][packagist-version]][packagist-url]
 [![Licence][license-badge]][license-url]
 
