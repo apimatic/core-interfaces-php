@@ -1,6 +1,5 @@
-# core-interfaces for Core Library
+# Apimatic Core Library Interfaces
 [![version][packagist-version]][packagist-url]
-[![Downloads][packagist-downloads]][packagist-url]
 [![Licence][license-badge]][license-url]
 
 ## Introduction
@@ -53,5 +52,5 @@ Or add it to the composer.json file manually as given below:
 [packagist-url]: https://packagist.org/packages/apimatic/core-interfaces
 [packagist-version]: https://img.shields.io/packagist/v/apimatic/core-interfaces.svg?style=flat
 [packagist-downloads]: https://img.shields.io/packagist/dm/apimatic/core-interfaces.svg?style=flat
-[license-badge]: https://img.shields.io/badge/licence-OSL--3.0-blue
-[license-url]: https://opensource.org/licenses/OSL-3.0
+[license-badge]: https://img.shields.io/badge/license-APIMATIC-blue
+[license-url]: License

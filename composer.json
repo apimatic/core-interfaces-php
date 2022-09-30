@@ -9,7 +9,7 @@
     "unirest",
     "interface"
   ],
-  "license": "OSL-3.0",
+  "license": "APIMATIC REFERENCE SOURCE LICENSE",
   "type": "library",
   "homepage": "https://github.com/apimatic/core-interfaces-php",
   "require": {
