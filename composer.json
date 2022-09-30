@@ -9,7 +9,7 @@
     "unirest",
     "interface"
   ],
-  "license": "APIMATIC REFERENCE SOURCE LICENSE",
+  "license": "proprietary",
   "type": "library",
   "homepage": "https://github.com/apimatic/core-interfaces-php",
   "require": {
