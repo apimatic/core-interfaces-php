@@ -4,7 +4,7 @@
 [![Licence][license-badge]][license-url]
 
 ## Introduction
-Definition of the behavior of apimatic/core, apimatic/unirest-php and Apimatic's PHP SDK
+Definition of the behavior of apimatic/core, apimatic/unirest-php and APIMatic's PHP SDK
 
 ## Requirements
 - PHP v7.2.x => v8.1.x
