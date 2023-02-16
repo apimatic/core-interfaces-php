@@ -45,5 +45,5 @@ composer require "apimatic/core-interfaces"
 [packagist-url]: https://packagist.org/packages/apimatic/core-interfaces
 [packagist-version]: https://img.shields.io/packagist/v/apimatic/core-interfaces.svg?style=flat
 [packagist-downloads]: https://img.shields.io/packagist/dm/apimatic/core-interfaces.svg?style=flat
-[license-badge]: https://img.shields.io/badge/license-APIMATIC-blue
+[license-badge]: https://img.shields.io/badge/license-MIT-blue
 [license-url]: LICENSE
