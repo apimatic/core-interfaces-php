@@ -6,8 +6,12 @@
 ## Introduction
 Definition of the behavior of apimatic/core, apimatic/unirest-php and APIMatic's PHP SDK
 
-## Requirements
-- PHP v7.2.x => v8.x
+## Supported PHP Versions
+- PHP 7.2
+- PHP 7.4
+- PHP 8.0
+- PHP 8.1
+- PHP 8.2
 
 ## Install the Package
 
