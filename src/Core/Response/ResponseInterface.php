@@ -15,6 +15,6 @@ interface ResponseInterface
     /**
      * @return mixed
      */
-    public function getBody();
+    public function getBody(): mixed;
     public function convert(ConverterInterface $converter);
 }
