@@ -12,9 +12,6 @@ interface ResponseInterface
      */
     public function getHeaders(): array;
     public function getRawBody(): string;
-    /**
-     * @return mixed
-     */
-    public function getBody(): mixed;
+    public function getBody();
     public function convert(ConverterInterface $converter);
 }
