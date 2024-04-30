@@ -13,7 +13,8 @@
   "type": "library",
   "homepage": "https://github.com/apimatic/core-interfaces-php",
   "require": {
-    "php": "^7.2 || ^8.0"
+    "php": "^7.2 || ^8.0",
+    "psr/log": "^1.1.4 || ^2.0.0 || ^3.0.0"
   },
   "autoload": {
     "psr-4": { "CoreInterfaces\\": "src/" }
