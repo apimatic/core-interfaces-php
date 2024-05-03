@@ -12,6 +12,7 @@ interface ParamInterface
      */
     public function extract(string $key, $defaultValue = null);
     public function required();
+    public function requiredNonEmpty();
     /**
      * To perform validation and serialization for un unusual types.
      */
