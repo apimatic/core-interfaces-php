@@ -26,9 +26,11 @@ composer require "apimatic/core-interfaces"
 |-------------------------------------------------------------------------|--------------------------------------------------------------------|
 | [`ContextInterface`](src/Core/ContextInterface.php)                     | To save both Request and Response after the completion of response |
 | [`AuthInterface`](src/Core/Authentication/AuthInterface.php)            | To Provide abstraction for all AuthManagers                        |
+| [`ApiLoggerInterface`](src/Core/Logger/ApiLoggerInterface.php)          | To set up an abstract layer for logging requests and responses     |
 | [`RequestInterface`](src/Core/Request/RequestInterface.php)             | To get the properties from the instance of Request                 |
 | [`RequestSetterInterface`](src/Core/Request/RequestSetterInterface.php) | To update the instance of Request                                  |
 | [`ParamInterface`](src/Core/Request/ParamInterface.php)                 | To Provide abstraction for common functionality of Parameters      |
+| [`NonEmptyParamInterface`](src/Core/Request/NonEmptyParamInterface.php) | An extension of ParamInterface, for validation of non-empty values |
 | [`TypeValidatorInterface`](src/Core/Request/TypeValidatorInterface.php) | To Provide abstraction for type validation in Parameters           |
 | [`ResponseInterface`](src/Core/Response/ResponseInterface.php)          | To get the properties from the instance of Response                |
 | [`HttpConfigurations`](src/Http/HttpConfigurations.php)                 | To hold the default configurations for HttpClient                  |
