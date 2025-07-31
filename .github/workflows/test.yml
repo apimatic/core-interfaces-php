@@ -1,0 +1,25 @@
+name: Tests
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+permissions:
+  contents: read
+
+jobs:
+  sonar-scan:
+    name: SonarQube Scan
+    runs-on: ubuntu-latest
+    if: "! contains(toJSON(github.event.head_commit.message), 'skip ci')"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: SonarQube Scan
+        if: ${{ github.actor != 'dependabot[bot]' }}
+        uses: SonarSource/sonarqube-scan-action@v5.2.0
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
