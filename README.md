@@ -1,6 +1,7 @@
 # APIMatic Core Library Interfaces
 [![version][packagist-version]][packagist-url]
-[![Maintainability](https://api.codeclimate.com/v1/badges/8c44cc226ce627f4efab/maintainability)](https://codeclimate.com/github/apimatic/core-interfaces-php/maintainability)
+[![Maintainability Rating][maintainability-badge]][maintainability-url]
+[![Vulnerabilities][vulnerabilities-badge]][vulnerabilities-url]
 [![Licence][license-badge]][license-url]
 
 ## Introduction
@@ -51,5 +52,9 @@ composer require "apimatic/core-interfaces"
 [packagist-url]: https://packagist.org/packages/apimatic/core-interfaces
 [packagist-version]: https://img.shields.io/packagist/v/apimatic/core-interfaces.svg?style=flat
 [packagist-downloads]: https://img.shields.io/packagist/dm/apimatic/core-interfaces.svg?style=flat
+[maintainability-badge]: https://sonarcloud.io/api/project_badges/measure?project=apimatic_core-interfaces-php&metric=sqale_rating
+[maintainability-url]: https://sonarcloud.io/summary/new_code?id=apimatic_core-interfaces-php
+[vulnerabilities-badge]: https://sonarcloud.io/api/project_badges/measure?project=apimatic_core-interfaces-php&metric=vulnerabilities
+[vulnerabilities-url]: https://sonarcloud.io/summary/new_code?id=apimatic_core-interfaces-php
 [license-badge]: https://img.shields.io/badge/license-MIT-blue
 [license-url]: LICENSE
